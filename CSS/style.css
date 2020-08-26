@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+.main-header {
+    background-image: url("../images/image5.jpeg");
+    padding: 15px;
+    text-align: right;
+    color: white;
+}
+
+.main-nav{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    padding: 0.5px;
+
+}
+.main-nav ul{
+    display: flex;
+    box-shadow: 0 0 10px black;
+}
+
+.main-nav li{
+    list-style: none;
+}
+
+.main-nav li a{
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+
+
+}
+
+.main-nav li a:hover{
+    background: linear-gradient(45deg,black,#975852);
+    padding: 5px 15px;
+    border-radius: 50px;
+    box-shadow: 0 0 3px white;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.main-content{
+    text-align: center;
+    margin-top: 20px ;
+    margin-left: 7%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px red;
+    border-radius: 30px 0px 30px 0px ;
+    width: 300px;
+    height: 60vh;
+
+}
+.main-content h2{
+    color: #b66060;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.main-content img {
+
+    width: 100%;
+}
+
+.main-content p{
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+
+#flex-article{
+    width: 80%;
+    margin: auto;
+}
+
+.Main-article{
+    box-shadow: 0 0 10px darkred;
+    background-color: #fce7e7;
+    border-radius: 10px;
+}
+
+
+
+.Main-article h2 {
+    background: linear-gradient(45deg,#975852,black,#975852);
+    text-align: center;
+    color: white;
+    padding: 18px;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.Main-article img {
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding-left: 22%;
+    padding-right: 22%;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+
+.Main-article p{
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    color: darkred;
+}
+
+
+
+<!-- Contact Section -->
+
+.contact-section {
+background-color: black;
+    padding: 12px;
+}
+
+.contact-article{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(1,0,0,0.5);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccb499  ;
+}
+
+.contact-article h2{
+    color: #8c775f;
+    padding: 10px;
+}
+
+.input-field {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid #c2ac92;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.input-field:focus {
+    border-color: whitesmoke;
+}
+
+::placeholder{
+    color: #ccb499;
+}
+
+.contact-section input [type = 'text'] {
+    color: white;
+}
+
+textarea {
+    background-color: transparent;
+    border: 3px solid #8c775f;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    border-color: whitesmoke;
+    outline: none;
+    cursor: text;
+}
+
+#contact-btn{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    width: 180px;
+    box-shadow: 0 0 3px black ;
+}
+
+#contact-btn:hover{
+    outline: none;
+    box-shadow: 3px 0 3px white;
+    cursor: pointer ;
+}
+
+.about-section{
+    width: 80%;
+    margin: auto;
+}
+
+.about-article{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 5px 0px  5px 5px black;
+}
+
+.about-article h2{
+    font-size: 30px;
+}
+
+.about-article p{
+    font-family: sans-serif;
+}
+
+/* ----------------- Main Footer ------------------- */
+
+.main-footer {
+    background: linear-gradient(45deg,#975852,black,#975852);
+    padding: 12px;
+    width: 100%;
+}
+
+.main-footer h3 {
+    text-align: center;
+    color: white;
+}
+
+.main-footer p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.main-footer a{
+    color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
